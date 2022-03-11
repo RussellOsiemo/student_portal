@@ -1,0 +1,2 @@
+describe  `student_reg`;
+INSERT INTO `student_reg`(`id`, `fname`, `other_names`, `school`, `course`, `email`, `DOB`, `reg_no`, `pass`) VALUES (1,'Russell',' Osiemo',3,'Computing and Informatics','computer science','russelosiemo@gmail.com','2001-2-2','CCS/00209/019');

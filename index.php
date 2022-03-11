@@ -1,14 +1,15 @@
+
 <?php
 include ("config.php");
 $name = "";
 
-$sql = "SELECT * FROM lecturer";
-$query = mysqli_query($conn, $sql);
-//change when many lecturers
-if (mysqli_num_rows($query)>0) {
-    $row = mysqli_fetch_array($query);
-    $name = $row['name'];
-}
+// $sql = "SELECT * FROM lecturer";
+// $query = mysqli_query($conn, $sql);
+// //change when many lecturers
+// if (mysqli_num_rows($query)>0) {
+//     $row = mysqli_fetch_array($query);
+//     $name = $row['name'];
+// }
 ?>
 
 <!DOCTYPE html>
@@ -546,4 +547,5 @@ if (mysqli_num_rows($query)>0) {
     <!-- Page specific script -->
 </body>
 
+>>>>>>> a9f4f9ac58accd52301086a3bee0191c9c3bdb52
 </html>
